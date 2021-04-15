@@ -3,7 +3,6 @@ body{
     padding: 0;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 /*----global header----*/
 .header{
@@ -14,13 +13,13 @@ body{
     width: 1000px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 1rem 0;
+    padding:1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .header__container p{
-    color: #508b86;
+    color: #88c0cf;
     font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
@@ -46,12 +45,12 @@ body{
     text-transform: uppercase;
 }
 .header__link:hover {
-    color:#84c1cc;
+    color:#99d0da;
 }
 
 /*-------global slide-----*/
 .slide{
-    background-color: #87c9bc;
+    background-color: #92cfe0;
     width:150px;
     height:150px;
     position: fixed;
@@ -63,7 +62,7 @@ body{
 }
 
 .slide span{
-    background: #87c9bc;
+    background: #92cfe0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +72,7 @@ body{
     height: 50px;
     width: 50px;
     font-size: 2rem;
-    color: #298b6d;
+    color: #317183;
     position: absolute;
     right: -50px;
     top: 50px;   
@@ -81,25 +80,37 @@ body{
 
 .slide p{
     margin: 1rem;
-    color: #298b6d;
+    color: #317183;
     line-height: 30px;
-}
-h1{
-    margin: 0;
-}
-.content{
-    margin-left: 80px;
-    align-self: center;
 }
 .open{
     left: 0;
 }
 
-p{
+/*-----content------*/
+.content{
+    align-self: center;
+}
+
+.skyline {
+    background: url(mw960367054-Kc-fa3I9aRQ-unsplash.jpg) no-repeat center center ; 
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+/*-----text--------*/
+.text{
     text-align: center;
+    margin: 25px 50px 75px;
 }
 /* --------- FOOTER --------- */
-footer {
+footer{
     text-align: center;
-
+    padding: 30px;
+    height: 150px;
+    background-color:rgb(75, 73, 73);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color:white;
 }
