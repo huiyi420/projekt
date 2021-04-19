@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*----global header----*/
+.header{
+    grid-area: h;
+    background:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header__container{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding:1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__container p{
+    color: #88c0cf;
+    font-size: 3rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+.header__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header__listitem{
+    margin-right: 2rem;
+}
+
+.header__listitem:last-of-type {
+    margin-right: 0;
+}
+
+.header__link{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header__link:hover {
+    color:#99d0da;
+}
+
+/*-------global slide-----*/
+.slide{
+    background-color: #92cfe0;
+    width:150px;
+    height:150px;
+    position: fixed;
+    left: -150px;
+    transition: .2s ease-in-out;
+    top:200px;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+.slide span{
+    background: #92cfe0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    cursor: pointer;
+    box-shadow: 5px 0 5px 0 rgba(50,50,50, .4);
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    color: #317183;
+    position: absolute;
+    right: -50px;
+    top: 50px;   
+}
+
+.slide p{
+    margin: 1rem;
+    color: #317183;
+    line-height: 30px;
+}
+.open{
+    left: 0;
+}
+
+/*-----content------*/
+.content{
+    display: grid;
+    grid-template-areas:
+    "h h h h h h"
+    ". b1 b2 b3 ."
+    ". p1 p2 p3 ."
+    "f f f f f ";
+    gap: 1rem;
+    grid-template-columns: repeat(5,1fr);
+}
+.bild-ett{
+    grid-area: b1;
+    grid-gap: 10px;
+    grid-column: 150px;
+    grid-row: 150px;
+}
+.bild-två{
+    grid-area: b2;
+    grid-gap: 10px;
+    grid-column: 150px;
+    grid-row: 150px;
+}
+.bild-tre{
+    grid-area: b3;
+    grid-gap: 10px;
+    grid-column: 150px;
+    grid-row: 150px;
+}
+.text1{
+    grid-area: p1;
+    grid-gap: 10px;
+    grid-column: 150px;
+    grid-row: 150px;
+}
+.text2{
+    grid-area: p2;
+    grid-gap: 10px;
+    grid-column: 150px;
+    grid-row: 150px;
+}
+.text3{
+    grid-area: p3;
+    grid-gap: 10px;
+    grid-column: 150px;
+    grid-row: 150px;
+}
+/*-----text--------*/
+.text{
+    text-align: center;
+    margin: 25px 50px 75px;
+}
+/* --------- FOOTER --------- */
+footer{
+    grid-area: f;
+    text-align: center;
+    padding: 30px;
+    height: 150px;
+    background-color:rgb(75, 73, 73);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color:white;
+}
