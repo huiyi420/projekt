@@ -6,7 +6,7 @@ body{
 }
 /*----global header----*/
 .header{
-    background:white;
+    background:#a6c9ff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .header__container{
@@ -19,7 +19,7 @@ body{
     justify-content: space-between;
 }
 .header__container p{
-    color: #88c0cf;
+    color: #428a9e;
     font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
@@ -45,12 +45,12 @@ body{
     text-transform: uppercase;
 }
 .header__link:hover {
-    color:#99d0da;
+    color:#428a9e;
 }
 
 /*-------global slide-----*/
 .slide{
-    background-color: #92cfe0;
+    background-color: #a6c9ff;
     width:150px;
     height:150px;
     position: fixed;
@@ -62,7 +62,7 @@ body{
 }
 
 .slide span{
-    background: #92cfe0;
+    background: #a6c9ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,8 +109,8 @@ footer{
     text-align: center;
     padding: 30px;
     height: 150px;
-    background-color:rgb(75, 73, 73);
+    background-color:#a6c9ff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
-    color:white;
+    color:black;
 }

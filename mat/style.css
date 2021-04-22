@@ -87,32 +87,36 @@ body{
     left: 0;
 }
 
-/*-----byggnader------*/
-.byggnader {
+/*-----mat------*/
+.mat{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 410px);
-    gap: 10px;
-    justify-content: center;
-    max-width: 1250px;
-    margin: 50px auto;
-
-}
-
-.byggnad {
-    width: 400px;
-    margin-bottom: 1rem;
-}
-
-.byggnad__img {
-    width: 100%;
-    max-height: 400px; /* Bilderna är olika höga*/
-}
-
-.byggnad__text {
-    background:#a6c9ff;
-    margin-bottom: 10px;
+    grid-template-columns: 1fr;    
+    gap: 1rem;
+    margin: 30px;
     padding: 10px;
-    border-radius: 2%;
+}
+
+.meny__one {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 1rem;
+}
+
+.meny__two {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 1rem;
+}
+
+.meny__text {
+    background:#a6c9ff;
+    padding: 50px 20px;
+    font-size: 25px;
+}
+
+.meny__bild img {
+    width: 100%;
+    display: block;
 }
 
 
