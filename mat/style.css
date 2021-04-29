@@ -23,6 +23,7 @@ body{
     font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
+    font-family: 'Righteous', cursive;
 }
 .header__list{
     list-style-type: none;
