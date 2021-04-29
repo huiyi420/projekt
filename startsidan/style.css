@@ -20,7 +20,7 @@ body{
     justify-content: space-between;
 }
 .header__container p{
-    color: #428a9e;
+    color:#428a9e;
     font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
