@@ -12,23 +12,26 @@ body{
 .header__container{
     width: 1000px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 50px;
     padding:1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .header__container p{
     color: #428a9e;
     font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
+    font-family: 'Righteous', cursive;
 }
 .header__list{
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 .header__listitem{
     margin-right: 2rem;
