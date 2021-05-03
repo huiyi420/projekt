@@ -12,7 +12,7 @@ body{
 .header__container{
     width: 1000px;
     max-width: 100%;
-    margin: 0 50px;
+    margin: 0 200px;
     padding:1rem 0;
     display: flex;
     flex-wrap: wrap;
@@ -130,3 +130,8 @@ footer{
     color:black;
 }
 
+@media all and (max-width: 37.5rem){
+    .header__container{
+        margin: 0 50px;
+    }
+}
