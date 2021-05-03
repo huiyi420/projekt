@@ -144,5 +144,6 @@ footer{
     }
     .trafik__text{
         font-size: 10px;
+        padding: 2px;
     }
 }
