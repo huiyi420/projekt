@@ -139,4 +139,7 @@ footer{
     .header__container{
         margin: 0 50px;
     }
+    .speciellt__text{
+        font-size: 10px;
+    }
 }

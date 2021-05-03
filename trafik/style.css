@@ -142,4 +142,7 @@ footer{
     .header__container{
         margin: 0 50px;
     }
+    .trafik__text{
+        font-size: 10px;
+    }
 }
