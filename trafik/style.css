@@ -138,6 +138,18 @@ footer{
     font-size: 1.5rem;
     color:black;
 }
+
+
+@media all and (max-width: 800px) {
+    .header__container{
+        margin: 0 100px;
+    }
+    .trafik__text{
+        font-size: 17.5px;
+        padding: 2px;
+    }
+}
+
 @media all and (max-width: 37.5rem){
     .header__container{
         margin: 0 50px;

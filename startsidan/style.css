@@ -130,6 +130,12 @@ footer{
     color:black;
 }
 
+@media all and (max-width: 800px) {
+    .header__container{
+        margin: 0 100px;
+    }
+}
+
 @media all and (max-width: 37.5rem){
     .header__container{
         margin: 0 50px;
