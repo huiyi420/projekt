@@ -19,8 +19,8 @@ body{
     flex-wrap: wrap;
 }
 .header__container p{
-    color: #428a9e;
-    font-size: 4rem;
+    color:#428a9e;
+    font-size: 3rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     font-family: 'Righteous', cursive;
